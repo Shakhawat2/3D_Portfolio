@@ -21,8 +21,9 @@ const Navbar = () => {
         window.scrollTo(0, 0);
       }}
       >
-      <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
+      {/* <img src={logo} alt="logos" className='w-9 h-9 object-contain' /> */}
       <h1 className='text-white text-[18px] font-bold cursor-pointer'>Shakhawat </h1>
+      {/* <img src="menu" alt="" className='cursor-pointer'/> */}
       </Link>
       <ul className='list-none hidden sm:flex flex-row gap-10'>
         {navLinks.map((link) =>(
